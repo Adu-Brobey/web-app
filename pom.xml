@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>JOMACS Releases Nexus Repository</name>
-	      <url>http://172.31.23.203:8081/repository/gtb-app-release/</url>
+	      <name>nexus-release</name>
+	      <url>http://172.31.20.122:8081/repository/nexus-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>JOMACS Snapshot Nexus Repository </name>
-	      <url>http://172.31.23.203:8081/repository/gtb-app-snapshot/</url>
+	      <name>nexus-snapshot</name>
+	      <url>http://172.31.20.122:8081/repository/nexus-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
